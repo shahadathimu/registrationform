@@ -1,0 +1,170 @@
+/* *this is form* */
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.login-box{
+	width: 600px;
+	margin: 30px auto;
+	padding: 40px;
+	background: #ecd7f5;
+}
+
+.login-form{
+	width: 100%;
+}
+
+.avater{
+	width: 100%;
+	text-align: center;
+}
+
+.avater img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0px 0px 15px;
+}
+
+.login{
+	font-size: 36px;
+	line-height: 46px;
+	text-align: center;
+	margin: 0px 0px 20px;
+}
+
+.form-group{
+	width: 570px;
+	margin: 0px 0px 10px;
+}
+
+.form-group label{
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.form-group  .form-control{
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.form-group-gender{
+	display: inline-block;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.ddmmyy{
+	width: 50%;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+.ddmmyy .dmy{
+	padding: 10px;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.city{
+	width: 100%;
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+.city .dcity{
+	width: 250px;
+	padding: 10px;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.country{
+	width: 100%;
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+.country .bcountry{
+	width: 250px;
+	padding: 10px;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.text-area label{
+	display: block;
+}
+
+.text-area{
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+.form-group .box{
+	margin: 0px 0px 0px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.form-group .btn{
+	padding: 10px 35px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #8978eb;
+	background: #e0dcf2;
+	border: 1px solid #5b5a61;
+	margin: 5px 0px 0px 10px;
+}
+
+.form-group .btn:hover{
+	color: #3e3d42;
+	background: #82a9d9;
+	border: 1px solid #5b5a61;
+	cursor: pointer;
+}

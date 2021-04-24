@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+
+	<!-- this is google font -->
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+<body>
+
+	<section class="container">
+		<div class="login-box">
+
+		<form action="" class="login-form">
+
+		<h1 class="login">Registration Form</h1>
+
+		<div class="form-group">
+		<label for="">Full Name</label>
+		<input type="text" placeholder="full name" class="form-control">
+		</div>
+
+		
+		<div class="form-group">
+		<label for="">Email</label>
+		<input type="email" placeholder="email" class="form-control">
+		</div>
+		
+
+		<div class="form-group">
+		<label for="">Password</label>
+		<input type="Password" placeholder="password" class="form-control">
+		</div>
+
+		<div class="form-group">
+		<label for="">Confirm Password</label>
+		<input type="Password" placeholder="Confirm Password" class="form-control">
+		</div>
+
+		<div class="form-group">
+		<label for="">Mobile Number</label>
+		<input type="mobile" placeholder="+8801***" class="form-control">
+		</div>
+
+		<div class="form-group">
+		<label for="">Address</label>
+		<input type="text" placeholder="Address" class="form-control">
+		</div>
+
+		<div class="form-group-gender">
+			<label>Gender</label><br>
+            <input type="radio" name="gender" id="male"/>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label> 
+            <br>
+		</div>
+
+		<div class="ddmmyy">
+			<label for="">Date of birth</label>
+			<br>
+			<select name="Date" class="dmy">
+				<option value="date">Date</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">2</option>
+			</select>
+			<select name="Month" class="dmy">
+				<option value="month">Month</option>
+				<option value="january">January</option>
+				<option value="february">February</option>
+				<option value="march">March</option>
+			</select>
+			<select name="Year" class="dmy">
+				<option value="year">Year</option>
+				<option value="1996">1996</option>
+				<option value="1997">1997</option>
+				<option value="1998">1998</option>
+			</select>
+		</div>
+
+		<div class="city">
+			<label for="">City</label>
+			<br>
+			<select name="city" class="dcity">
+				<option value="city">City</option>
+				<option value="Dhaka">Dhaka</option>
+				<option value="Delhi">Delhi</option>
+				<option value="Islamambad">Islamambad</option>
+			</select>
+		</div>
+
+		<div class="country">
+			<label for="">Country</label>
+			<br>
+			<select name="country" class="bcountry">
+				<option value="country">Country</option>
+				<option value="Bangladesh">Bangladesh</option>
+				<option value="India">India</option>
+				<option value="Pakistan">Pakistan</option>
+			</select>
+		</div>
+
+		<div class="text-area">
+			<label>Write About You</label>
+            <textarea rows="5" cols="70">write here in 100 words</textarea> 
+            <br>
+		</div>
+
+		<div class="form-group">
+			<input type="checkbox" class="box"> Accept the terms and policies
+		</div>
+
+		<div class="form-group">
+		<button class="btn success">Submit</button>
+		<button class="btn info">Resert</button>
+		</div>
+
+	</form>
+	</div>
+	</section>
+
+</body>
+</html>
